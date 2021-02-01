@@ -55,15 +55,15 @@ addFood(mashPotatoes[0], '#mashPotatoes').then(() => {
 
   async function makeFood(step) {
     try {
-      addFood(brusselSprouts[0], '#brusselSprouts')
-      addFood(brusselSprouts[1], '#brusselSprouts')
-      addFood(brusselSprouts[2], '#brusselSprouts')
-      addFood(brusselSprouts[3], '#brusselSprouts')
-      addFood(brusselSprouts[4], '#brusselSprouts')
-      addFood(brusselSprouts[5], '#brusselSprouts')
-      addFood(brusselSprouts[6], '#brusselSprouts')
-      addFood(brusselSprouts[7], '#brusselSprouts')
-      addFood(brusselSprouts[8], '#brusselSprouts')
+      await addFood(brusselSprouts[0], '#brusselSprouts')
+      await addFood(brusselSprouts[1], '#brusselSprouts')
+      await addFood(brusselSprouts[2], '#brusselSprouts')
+      await addFood(brusselSprouts[3], '#brusselSprouts')
+      await addFood(brusselSprouts[4], '#brusselSprouts')
+      await addFood(brusselSprouts[5], '#brusselSprouts')
+      await addFood(brusselSprouts[6], '#brusselSprouts')
+      await addFood(brusselSprouts[7], '#brusselSprouts')
+      await addFood(brusselSprouts[8], '#brusselSprouts')
     } 
     catch {
       console.log("We're out of brussel sprouts.");
